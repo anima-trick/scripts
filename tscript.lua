@@ -34,6 +34,7 @@ function module.createInstances()
 		TextButton.Font = Enum.Font.SourceSans
 		TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 		TextButton.TextSize = 14.000
+		return TextButton
 	end
 	return self
 end
